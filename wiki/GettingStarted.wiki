@@ -1,0 +1,28 @@
+#summary How to setup a build environment
+
+= Setup of a build environment =
+
+== Prerequisites ==
+
+ * Java 1.6+
+ * Apache Maven 3.0.3+
+ * Tomcat 7+
+
+
+== Maven dependencies ==
+
+ * [http://cxf.apache.org/ Apache CXF]
+ * [http://jersey.java.net/ Jersey]
+ * JSR-311
+ * [http://code.google.com/p/utils-apl-derived/ utils-apl-derived](other project)
+
+ * [http://www.lunatech-labs.com/open-source/jax-doclets Doclet to generate documentation from Javadoc by www.lunatech-labs.com]
+
+
+== Checkout source from SVN == 
+
+Checkout source from SVN for this projects and the *utils-apl-derived* project.
+
+Import the projects into Eclipse via the *Import existing Maven projects..." wizard
+
+Or build from console via Maven by running *mvn clean install* on the projects root POM locations.
