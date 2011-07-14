@@ -11,10 +11,13 @@
 
 == Maven dependencies ==
 
- * Apache CXF
- * Jersey
+ * [http://cxf.apache.org/ Apache CXF]
+ * [http://jersey.java.net/ Jersey]
  * JSR-311
- * [http://code.google.com/p/utils-apl-derived/ utils-apl-derived] (other project)
+ * [http://code.google.com/p/utils-apl-derived/ utils-apl-derived](other project)
+
+ * [http://www.lunatech-labs.com/open-source/jax-doclets Doclet to generate documentation from Javadoc by www.lunatech-labs.com]
+
 
 == Checkout source from SVN == 
 
