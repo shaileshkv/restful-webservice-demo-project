@@ -25,6 +25,32 @@ Checkout source from SVN for this projects and the *utils-apl-derived* project.
 
 Import the projects into Eclipse via the *Import existing Maven projects..." wizard
 
+== Project overview ==
+
+[http://svn.codespot.com/a/eclipselabs.org/restful-webservice-demo-project/wiki/images/subprojects_overview.png]
+
+The projects are grouped into a Apache Maven nested module project.
+The root project is called:
+ * webservice-evaluation
+and it includes following nested module projects:
+ * client-apache-cxf
+ * client-jersey
+ * webapp-apache-cxf
+ * webapp-jersey
+ 
+The client projects are representing REST clients. They include JUnit test cases which simulates a client by requesting data from the web application projects.
+
+The webapp projects are deployable web applications which have to be deployed into a tomcat to allow the client projects JUnit tests to be runnable.
+
 == Deploy webapps into an Eclipse integrated Tomcat ==
 
 [http://svn.codespot.com/a/eclipselabs.org/restful-webservice-demo-project/wiki/images/eclipse_tomcat_conf.png]
+
+== Configuration of the clients ==
+
+The Apache CXF client factory has to be configured with a valid url address pointing towards the running web application projects.
+
+This can be achieved in the following file:
+[http://svn.codespot.com/a/eclipselabs.org/restful-webservice-demo-project/wiki/images/apache_CXF_client_configuration.png]
+
+The ports there have to match your Apache Tomcat ports.
