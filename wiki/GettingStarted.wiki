@@ -51,6 +51,7 @@ The webapp projects are deployable web applications which have to be deployed in
 The Apache CXF client factory has to be configured with a valid url address pointing towards the running web application projects.
 
 This can be achieved in the following file:
+
 [http://svn.codespot.com/a/eclipselabs.org/restful-webservice-demo-project/wiki/images/apache_CXF_client_configuration.png]
 
 The ports there have to match your Apache Tomcat ports.
