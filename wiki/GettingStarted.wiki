@@ -25,6 +25,14 @@ Checkout source from SVN for this projects and the *utils-apl-derived* project.
 
 Import the projects into Eclipse via the *Import existing Maven projects..." wizard
 
+== Dependency: utils-apl-derived ==
+
+The utils-apl-derived project is basically a library containing utility classes. Since it is not available in Maven Repo1 yet, it has to be compiled, too.
+
+This can be done by checking it out and compile and install it with "mvn clean install" at console level.
+
+This utils project offers some of the JAXB delegate classes to wrap arbitrary maps and lists, as well as a possibility to log data directly into Microsoft Excel xls files.
+
 == Project overview ==
 
 [http://svn.codespot.com/a/eclipselabs.org/restful-webservice-demo-project/wiki/images/subprojects_overview.png]
