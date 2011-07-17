@@ -25,4 +25,6 @@ Checkout source from SVN for this projects and the *utils-apl-derived* project.
 
 Import the projects into Eclipse via the *Import existing Maven projects..." wizard
 
-Or build from console via Maven by running *mvn clean install* on the projects root POM locations.
+== Deploy webapps into an Eclipse integrated Tomcat ==
+
+[http://svn.codespot.com/a/eclipselabs.org/restful-webservice-demo-project/wiki/images/eclipse_tomcat_conf.png]
