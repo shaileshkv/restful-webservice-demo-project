@@ -27,9 +27,18 @@ Import the projects into Eclipse via the *Import existing Maven projects..." wiz
 
 == Dependency: utils-apl-derived ==
 
-The utils-apl-derived project is basically a library containing utility classes. Since it is not available in Maven Repo1 yet, it has to be compiled, too.
+The utils-apl-derived project is basically a library containing utility classes. It is not available in Maven Repo1 yet, but within the SNAPSHOT repository from Sonatype
 
-This can be done by checking it out and compile and install it with "mvn clean install" at console level.
+https://oss.sonatype.org/content/repositories/snapshots/
+
+The Maven dependency is
+{{{
+<dependency>
+  <groupId>org.omnaest.utils</groupId>
+  <artifactId>utils-apl-derived</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+</dependency>
+}}}
 
 This utils project offers some of the JAXB delegate classes to wrap arbitrary maps and lists, as well as a possibility to log data directly into Microsoft Excel xls files.
 
